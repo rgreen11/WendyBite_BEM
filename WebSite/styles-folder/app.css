@@ -1,0 +1,102 @@
+html,
+body {
+    bottom: 100%
+}
+
+html {
+    background-color: black;
+}
+
+body {
+
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    padding: 30px;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 10px;
+    width: 500px;
+    text-align: left;
+}
+
+.first {
+    border: 3px solid white;
+    padding: 20px;
+
+}
+
+.second {
+
+    height: 100%;
+    padding-bottom: 30px;
+
+}
+
+.container {
+    float: right;
+    margin: 10px;
+    width:180px;
+    height:180px;
+    display: block;
+    float: right;
+    position:relative;
+    margin:0 auto;
+
+}
+
+.container img {
+    float: right;
+    border: 1px solid white;
+    padding: 3px;
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    right:0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+.container img:hover{
+    opacity:0;
+}
+
+
+
+.image2 {
+    position: relative;
+    float: right;
+    border: 1px solid grey;
+    padding: 3px;
+    width: 150px;
+    height: 150px;
+
+}
+
+
+h1 {
+    text-align: center;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+section {
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+}
+
+/* resume */
+.light-text {
+    color: lightgrey;
+}
